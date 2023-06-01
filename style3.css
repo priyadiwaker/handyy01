@@ -200,10 +200,10 @@
     }
 
     .page4{
-        top: -58vh;
-        height: 289vh;
-        z-index: 999;
-        width: 100%;
+       top: 39vh;
+    height: 289vh;
+    z-index: 999;
+    width: 100%;
     }
 
     .products{
