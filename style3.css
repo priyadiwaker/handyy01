@@ -178,8 +178,7 @@
     height: 16vh;
     }
     .page3 .text4{
-        top: 24.6746%;
-   
+        top: 32.6784%;
     width: 61vw;
     height: 45vh;
     }
@@ -194,10 +193,10 @@
     }
     .page3 .text4 p{
         width: 58vw;
-    height: 28vh;
-    position: relative;
-    font-size: 5.5vw;
-    margin-top: -17%;
+        height: 28vh;
+        position: relative;
+        font-size: 3.5vw;
+        margin-top: -18%;
     }
 
     .page4{
