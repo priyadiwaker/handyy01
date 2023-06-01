@@ -1,7 +1,17 @@
+var icon = document.querySelector(".m-icon");
+var nav = document.querySelector(".mobile-nav");
+var cross = document.querySelector(".close")
+
+icon.addEventListener("click", function(){
+    nav.style.display="flex";
+    nav.style.left = "0%";
+})
+cross.addEventListener("click", function(){
+    nav.style.display="none";
+})
 
 
-// var cir = document.querySelector("#circle");
-// var win = document.querySelector(".text5")
+
 
 
 
@@ -13,11 +23,11 @@ function createcard([img, name, price]){
     var clutter = `
     <div class="card">
        <div class="imgbox">
-        <img src="${img}" alt="">
+        <img src=${img} alt="">
        </div>
     <div class="contentbox">
-        <h3>"${name}"</h3>
-        <div class="price">"${price}"</div>
+        <h3>${name}</h3>
+        <div class="price">${price}</div>
        <div class="btns">
         <a href="#" class="detail btn">view details</a>
         <a href="#" class="add btn ">add to cart</a>
