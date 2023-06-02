@@ -38,27 +38,27 @@ function createcard([img, name, price]){
     card.innerHTML += clutter;
 }
 
-var item1 = ["img2.png",
+var item1 = ["images/img2.png",
 "handmade basket",
 "50rs"
 ]
-var item2 = ["img12.png",
+var item2 = ["images/img12.png",
 "wooden clock",
 "300rs"
 ]
-var item3 = ["img13.png",
+var item3 = ["images/img13.png",
 "pottery mug",
 "150rs"
 ]
-var item4 = ["img14.png",
+var item4 = ["images/img14.png",
 "wall frame",
 "200rs"
 ]
-var item5 = ["img15.png",
+var item5 = ["images/img15.png",
 "show piece",
 "300rs"
 ]
-var item6 = ["img17.png",
+var item6 = ["images/img17.png",
 "brass",
 "500rs"
 ]
